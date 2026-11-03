@@ -3,7 +3,7 @@
 [![tests](https://github.com/pietro-d/llama-from-scratch/actions/workflows/tests.yml/badge.svg)](https://github.com/pietro-d/llama-from-scratch/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A from-scratch implementation of the Llama 2 / 3 / 3.1 / 3.2 decoder in plain PyTorch, about 500 lines with comments, with no `transformers` in the model code. It loads official Meta checkpoints and matches Hugging Face's `LlamaForCausalLM` on logits, loss, gradients and greedy generation.
+A from-scratch implementation of the Llama 3.2 decoder in plain PyTorch, about 500 lines with comments, with no `transformers` in the model code. It loads official Meta checkpoints and matches Hugging Face's `LlamaForCausalLM` on logits, loss, gradients and greedy generation.
 
 ## What's implemented
 
