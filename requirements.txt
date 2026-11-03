@@ -1,0 +1,5 @@
+torch>=2.1
+safetensors
+# only for the tokenizer in generate.py and for the parity tests
+transformers>=4.43
+pytest

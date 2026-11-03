@@ -1,0 +1,13 @@
+[project]
+name = "llama-from-scratch"
+version = "0.1.0"
+description = "Llama 2/3/3.1/3.2 implemented from scratch in plain PyTorch"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Pietro Di Nicco" }]
+requires-python = ">=3.10"
+dependencies = ["torch>=2.1", "safetensors"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
